@@ -5,7 +5,7 @@
 # ICS3U-Unit4-01.py File,
 # learning while statement in python.
 
- 
+
 def main():
 
     # input and variables
@@ -20,9 +20,9 @@ def main():
         while counter < input_number_asint:
             counter += 1
             answer += counter
-            print("{0:,}".format(counter), end ="")
+            print("{0:,}".format(counter), end="")
             if counter < input_number_asint:
-                print(" + ", end ="")
+                print(" + ", end="")
         print(" = {0:,}".format(answer))
     except ValueError:
         print("Invalid input, Please try again following the requirements.")
